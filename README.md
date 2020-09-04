@@ -14,16 +14,16 @@
 
 5. **Laiendite nimekiri mis pean installima, milline oli olemas ja millise intallisin + käsu rida:**
   
-    PHP >= 7.2.5                OLEMAS  
-    BCMath PHP Extension        sudo apt install php7.4-bcmath  
-    Ctype PHP Extension         OLEMAS  
-    Fileinfo PHP extension      OLEMAS  
-    JSON PHP Extension          OLEMAS  
-    Mbstring PHP Extension      sudo apt-get install php7.4-mbstring    
-    OpenSSL PHP Extension       OLEMAS  
-    PDO PHP Extension           OLEMAS  
-    Tokenizer PHP Extension     OLEMAS  
-    XML PHP Extension           sudo apt-get install php-xml    
+        PHP >= 7.2.5                OLEMAS  
+        BCMath PHP Extension        sudo apt install php7.4-bcmath  
+        Ctype PHP Extension         OLEMAS  
+        Fileinfo PHP extension      OLEMAS  
+        JSON PHP Extension          OLEMAS  
+        Mbstring PHP Extension      sudo apt-get install php7.4-mbstring    
+        OpenSSL PHP Extension       OLEMAS  
+        PDO PHP Extension           OLEMAS  
+        Tokenizer PHP Extension     OLEMAS  
+        XML PHP Extension           sudo apt-get install php-xml  
 
     ***!Installisin ka "sudo apt install php-zip", sest composeri jaoks oli seda vaja.***
 
