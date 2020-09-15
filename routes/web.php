@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/welcome', function () {
+    $name = "Rando";
+    return view('welcome', compact('name'));
 });
