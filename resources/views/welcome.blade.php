@@ -12,7 +12,7 @@
     <table class="w-full table-auto">
         <thead class="font-bold">
             <tr>
-                <td class="px-4 py-2">Pealkiri</td>
+                <td class="px-4 py-2"><a href="?sort=title&order={{ $order }}">Pealkiri</td>
                 <td class="px-4 py-2">Autor</td>
                 <td class="px-4 py-2">Aasta</td>
                 <td class="px-4 py-2">Keel</td>
@@ -36,6 +36,9 @@
             </tr>
             @endforeach
     </table>
+    <div class="mt-4">
+        {{ $books->links() }}
+    </div>
 </body>
 
 </html>
