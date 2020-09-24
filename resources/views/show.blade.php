@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 
-<body class="h-full flex justify-center items-center">
+<body class="h-full flex justify-center items-center bg-blue-400">
     <div class="max-w-2xl">
         <a href="/">Tagasi</a>
         <div class="text-2xl fonzt-bold">{{ $book->title }} </div>
@@ -31,7 +31,7 @@
                 <span class="font-bold">Tüüp: {{ $book->type }}</span>
                 <span class="text-right font-bold text-4xl">{{ number_format($book->price, 2) }} €</span>
                 <span class="text-right text-sm">Laoseis: {{ $book->stock_saldo }}</span>
-                <button class="bg-blue-500 px-4 py-2 rounded shadow-xl hover:bg-blue-600">Lisa Korvi</button>
+                <button class="bg-white px-4 py-2 rounded shadow-xl hover:bg-blue-600">Lisa Korvi</button>
             </div>
         </div>
     </div>
