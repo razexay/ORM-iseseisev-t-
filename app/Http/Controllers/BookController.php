@@ -18,4 +18,9 @@ class BookController extends Controller
 
         return view('welcome', ['books' => $books->paginate(20), 'order' => $order]);
     }
+    public function show($book)
+    {
+        $book = Book::with('author')->find($book);
+        return view('show', compact('book'));
+    }
 }

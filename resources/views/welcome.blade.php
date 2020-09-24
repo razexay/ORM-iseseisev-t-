@@ -25,7 +25,7 @@
         <tbody class="text-sm">
             @foreach($books as $book)
             <tr>
-                <td class="border px-4 py-2">{{ $book->title }}</td>
+                <td class="border px-4 py-2"><a href="/book/{{ $book->id }}">{{ $book->title }}</a></td>
                 <td class="border px-4 py-2"></td>
                 <td class="border px-4 py-2">{{ $book->release_date }}</td>
                 <td class="border px-4 py-2">{{ $book->language }}</td>
@@ -37,7 +37,7 @@
             @endforeach
     </table>
     <div class="mt-4">
-        {{ $books->links() }}
+        {{ $books->withQueryString()->links() }}
     </div>
 </body>
 
